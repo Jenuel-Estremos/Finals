@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	<meta name ="viewport"
+		content = "widthe=device-width, initial-scale=1.0"/>
+	<title> Website of Estremos</title>
+	<link rel = "stylesheet" href="cssF/FINALstyles.css"/>
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="FINALscript.js"></script>
+  </head>
+	<body> 
+		<nav class="navbar">
+			<div class = "max-width">
+				<div class = "intro"><a href="#">いらっし<span>ゃいませ</span></a></div>
+				<ul class="MainMenu">
+					<li><a href = "home.html">Home</a></li>
+					<li><a href = "AboutMe.html">About Me</a></li>
+					<li><a href = "Skills.html">Skills</a></li>
+					<li><a href = "contact.html">Contacts</a></li>
+				</ul>	
+			</div>
+		</nav>	
+			<section class = "home" id="home">
+				<div class="max-width">
+				<div class="home-content">
+					<div class = "text-1">Welcome to my Website!</div>
+					<div class = "text-2">My Name is <span>Jenuel Adrian Estremos</span></div>
+					<div class = "text-3">an IT student of Adamson University</div>
+					
+					<div class="popup" id="popup-1">
+					<div class="overlay"></div>
+					<div class="content">
+					<div class="closebtn" onclick="togglePopup()">&times;</div>
+					<h1 class="btnop">HI!</h1>
+					<p class="btnop">Good to Meet you, User!</p>
+					</div>
+					</div>
+					<button onclick="togglePopup()">Click Hi</button>
+				
+				
+				</div>
+				</div>
+			</section>	
+			<section class="about" id="about">
+				<div class="max-width">
+					<h2 class="title">About Me</h2>
+				
+					<div class="about-content">
+					<div class="column left">
+						<img  src="img/Personal.png">
+					</div>
+					<div class="column right">
+						<div class="text">Education</div> 
+						<ul class = "educ">
+							<li><a href="https://www.adamson.edu.ph/">Tertiary:</a><a>Adamson University</a></li>
+							<li><a href="https://www.facebook.com/AraulloHSManila/">Secondary:</a><a>  Araullo High School</a></li>
+							<li><a href="https://rpes.depedpasay.ph/">Elementary:</a><a> Rafael V. Palma Elementary</a> School</li>
+						</ul>
+						<div class="text">Hobbies</div> 
+						<ul class = "hobbies">
+						<li><a href="https://store.steampowered.com/"> Playing Games: </a><a>One of my favorite game is Valorant</a></li>
+						<li><a href="https://www.spotify.com/us/"> Playing Music: </a><a>I am trying to learn musical intruments today</a></li>
+						<li><a href="https://www.tiktok.com/en/"> Dancing: </a><a>I am fond of dancing, it is my way to release stress</a></li>
+						</ul>
+				</div>	
+				</div>
+			</section>
+			<section class="skills" id="skills">
+				<div class="max-width">
+				<h2 class="title">Skills</h2>
+				<div class="column right">
+						<table border="1" class="tab-skills" align="right">
+						<thead>
+						<tr>
+						<th>Core Skills</th>
+						<th>Rates</th>
+						</tr>
+						</thead>
+						<tr>
+						<td>C#</td>
+						<td>💙💙💙💙💙</td>
+						</tr>
+						<tr>
+						<td>Html</td>
+						<td>💙💙💙💙</td>
+						</tr>
+						<tr>
+						<td>javascript</td>
+						<td>💙💙💙💙💙</td>
+						</tr>
+						<tr>
+						<td>CSS</td>
+						<td>💙💙💙💙💙</td>
+						</tr>
+						</table>
+					</div>
+					</div>
+				<div class="skills-content">
+					<div class="column left">
+					<div class="textsk">Core Skills</div> 
+					<p class="skilldesc">I am currently an IT student at Adamson University. I am currently learning programming languages provided by the teachings of our Professors and online tutorials. As a freshman and beginner in coding, I can improve my skills in coding, and the level I am at today can catch up to the lessons. As a beginner in programming, I rated my skills to the class level I am today. The following programming language that we tackle today: C#, HTML, JavaSCRIPT, and CSS.</p>
+					</div>
+		</section>
+		<section class="Contact" id="contact">
+			<div class="max-width">
+				<h2 class="title">Contact Me</h2>
+				<div class = "contact-content">
+					<div class="column left">
+						<div class="text">Get in Touch</div>
+					<p>Get To Know Me More!</p>
+					<form action="mailto:jenueladrian.estremos20@gmail.com" method="post" enctype="text/plain">
+					<div class = "icons">
+						<div class = "row">
+							<i class = "fas fa-user"></i>
+							<div class = "info">
+								<div class = "head">Name</div>
+								<div class="subtitle">Jenuel Adrian Estremos</div>
+							</div>
+						</div>			
+						<div class = "icons">
+						<div class = "row">
+							<i class = "fas fa-marker-alt"></i>
+							<div class = "info">
+								<div class = "head">Address</div>
+								<div class="subtitle">1158 F. Zapanta St. Malate, Manila</div>
+							</div>
+						</div>	
+						<div class = "icons">
+						<div class = "row">
+							<i class = "fas fa-envelope"></i>
+							<div class = "info">
+								<div class = "head">Email</div>
+								<div class="subtitle">jenueladrian.estremos20@gmail.com</div>
+							</div>
+						</div>
+						<div class = "column right">
+							<div class="text">Message Me</div>
+							<form action="#">
+							<div class='fields'>
+							<div class='field name'></div>
+							<input type="text" placeholder="Name" value="">
+							</div>
+							<div class='field email'></div>
+							<input type="email" placeholder="Email" value="">
+							
+						</div>
+						<div class='field'></div>
+							<input type="subject" placeholder="Subject"value="">
+							
+						</div>
+						<div class='field textarea'></div>
+							<textarea cols="30" rows="10" placeholder="Input your Concerns..."value=""></textarea>
+							
+						</div>
+						<div class "button">
+						<button type="submit">Send Message</button>
+						
+						</div>
+						</form>
+				</div>
+			</div>
+			</div>
+			</div>
+		</section>
+	</body>
+  </html>
